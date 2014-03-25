@@ -22,4 +22,12 @@ public class Subscription {
 	   * Call this to cancel/nulify this subscription.
 	   */
 	   public void cancel() { length = 0 ; }
+
+	public int getLength() {
+		return length;
+	}
+
+	public void setLength(int length) {
+		this.length = length;
+	}
 }
